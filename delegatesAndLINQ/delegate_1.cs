@@ -9,6 +9,6 @@ namespace delegatesAndLINQ
 {
     class delegate_1
     {
-        public delegate void SayHello(string str);
+        // .... SayHello ....
     }
 }

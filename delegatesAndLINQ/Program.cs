@@ -1,5 +1,7 @@
 ﻿#define delegate_1
 
+/************ ONLY FOR COMPE 561 ************/
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +20,7 @@ namespace delegatesAndLINQ
             // Problem: 
             // PART I) open delegate_1.cs file and declare the
             // type SayHello as a delegate that takes a single
-            // string parameter and returns a string result.
+            // string parameter and returns nothing.
 
             // PART II) next, declare a delegate of type SayHello with name HelloSayer
             // and assign to it an anonymous function (you can use lambda) which
@@ -27,13 +29,82 @@ namespace delegatesAndLINQ
 
             // type the code for PART II here
 
-            SayHello HelloSayer = x => Console.WriteLine(x);
-
             HelloSayer("Hello there");
             #endregion
 
-#elif delegate_2
-            #region delegate_2
+#elif LINQ_1
+            #region LINQ_1
+            // Problem:
+            // Write a program in C# Sharp to shows how the three parts of a query operation execute.
+            // the program should print even integers from the data source of integers. (The numbers which produce the remainder 0 after divided by 2)
+            // step 1) Create a data source of integers from 0 to 9
+            // step 2) Create a LINQ query
+            // step 3) Execute the query (just print it on the console)
+
+
+            // type the code here
+
+            #endregion
+
+#elif LINQ_2
+            #region LINQ_2
+            // Do the previous problem only with LINQ extension methods
+            // NOTE: you still need the data source 
+
+            // type the code here
+
+
+
+
+            #endregion
+
+#elif LINQ_3
+            #region LINQ_3
+            // Problem: Write a program in C# Sharp to arrange the distinct elements in the list in ascending order.
+            // Expected output:
+            /*
+             Expected Output :
+                Biscuit
+                Brade
+                Butter
+                Honey
+             */
+            // Data source is given. Take a look at Item_Mast.cs class
+
+
+            // type the code here
+
+
+
+
+
+
+            #endregion
+
+#elif LINQ_4
+            #region LINQ_4
+            // Write a program in C# Sharp to Remove Items from List by passing filters.
+            // Test Data:
+            // Here is the list of items:
+            // Char: m
+            // Char: n
+            // Char: o
+            // Char: p
+            // Char: q
+            // you habe to create a storage for these items (List)
+            // and apply the filters so that the output is the following:
+            // Here is the list after removing item 'q' from the list :
+            // Char: m
+            // Char: n
+            // Char: o
+            // Char: p
+
+
+            // type the code here
+
+
+
+
 
             #endregion
 #endif
