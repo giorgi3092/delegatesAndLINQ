@@ -29,6 +29,8 @@ namespace delegatesAndLINQ
 
             // type the code for PART II here
 
+
+            // do not remove the next line.
             HelloSayer("Hello there");
             #endregion
 
